@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+
+float a,b,divide;
+
+printf("Enter two numbers to operate on\n");
+scanf("%f%f", &a, &b);
+ 
+divide = a / b;
+
+printf("Division of the numbers = %f\n", divide);
+
+return 0;
+}
